@@ -1,0 +1,18 @@
+[17-Mar-2022 23:18:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'nemanjaa_gossipalert.r.idResponse' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/nemanjaant/public_html/models/functions.php:108
+Stack trace:
+#0 /home/nemanjaant/public_html/models/functions.php(108): PDOStatement->execute()
+#1 /home/nemanjaant/public_html/models/questionnaireProcessing.php(26): getVotingResults('1')
+#2 {main}
+  thrown in /home/nemanjaant/public_html/models/functions.php on line 108
+[17-Mar-2022 23:19:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'nemanjaa_gossipalert.r.idResponse' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/nemanjaant/public_html/models/functions.php:108
+Stack trace:
+#0 /home/nemanjaant/public_html/models/functions.php(108): PDOStatement->execute()
+#1 /home/nemanjaant/public_html/models/questionnaireProcessing.php(26): getVotingResults('1')
+#2 {main}
+  thrown in /home/nemanjaant/public_html/models/functions.php on line 108
+[17-Mar-2022 23:20:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'nemanjaa_gossipalert.r.idResponse' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in /home/nemanjaant/public_html/models/functions.php:108
+Stack trace:
+#0 /home/nemanjaant/public_html/models/functions.php(108): PDOStatement->execute()
+#1 /home/nemanjaant/public_html/models/questionnaireProcessing.php(20): getVotingResults('1')
+#2 {main}
+  thrown in /home/nemanjaant/public_html/models/functions.php on line 108

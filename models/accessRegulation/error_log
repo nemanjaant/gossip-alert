@@ -1,0 +1,29 @@
+[17-Mar-2022 16:50:30 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/nemanjaant/public_html/models/functions.php on line 414
+[17-Mar-2022 17:21:04 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 18
+[17-Mar-2022 17:21:20 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 18
+[17-Mar-2022 17:22:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '4fc85df120dcc8c029b0d643bd4774ee' in 'where clause' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php:17
+Stack trace:
+#0 /home/nemanjaant/public_html/models/accessRegulation/confirmation.php(17): PDO->query('SELECT email FR...')
+#1 {main}
+  thrown in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 17
+[17-Mar-2022 17:26:55 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 17:27:09 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 17:27:16 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 17:30:46 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 18:23:35 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 18:37:23 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 18:45:21 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 18:53:20 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 18:53:31 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 18:59:50 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 19:36:01 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 19:48:31 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 19:53:31 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 20:17:28 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 20:32:05 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 21:00:02 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 21:08:18 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[17-Mar-2022 22:07:18 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[18-Mar-2022 00:22:20 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[18-Mar-2022 09:28:39 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16
+[18-Mar-2022 09:29:04 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ';' or ',' in /home/nemanjaant/public_html/models/accessRegulation/confirmation.php on line 16

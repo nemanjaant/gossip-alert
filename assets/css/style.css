@@ -1,0 +1,477 @@
+*{
+    padding:0px;
+    margin:0px;
+    list-style-type: none;
+    font-family: Merriweather !important;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color:#000;
+    
+}
+
+header{
+    min-height: 200px;
+    background-color: rgb(245, 217, 183);
+}
+
+#navigation{
+    
+    border-bottom:#000 solid 5px;
+}
+
+#navigation ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    letter-spacing: 3px;
+ }
+ 
+#navigation li {
+    flex: 3;    
+ }
+
+ #navigation ul li ul{
+    display: none;
+ }
+ 
+ #navigation ul li:hover ul{
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    margin-top:15px;
+    font-size: 1.5rem;
+    padding:5px;
+    
+ }
+
+ 
+
+ @media all and (max-width: 1000px) {
+    #navigation ul {
+       flex-wrap: wrap;
+    }
+    
+    #navigation li {
+       flex: 1 1 50%;
+    }
+ 
+   
+ }
+ 
+ @media all and (max-width: 480px) {
+    .navigation li {
+       flex-basis: 100%;
+    }
+ 
+    .navigation .user {
+       flex-basis: 50%;
+    }
+ }
+
+ #loginRegulate{
+     background-color: azure;
+     padding:10px;
+     text-align: center;
+     font-size: 1.2rem;
+     border-radius: 3px;
+ }
+ #loginRegulate li:first-child{
+     border-bottom: #000 solid 1px;
+ }
+
+#banner{
+    min-height: 40vh;
+    background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/logo/gossip-illo-web.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+   
+}
+
+#questionnaireForm{
+   padding:10px;
+   margin: 40px auto;
+   border: #000 solid thin;
+   background: linear-gradient(rgba(245, 237, 237, 0.6), rgba(255,255,255,.6));
+   font-size: 1.5rem;
+}
+
+#siteTitle{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#siteTitle h1{
+    font-size: 7rem;
+    font-style:italic;
+}
+
+#topNews{
+    min-height: 60vh;
+    width:100%;
+    border-top: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+    background-color: rgb(245, 184, 85);
+
+}
+
+.leadingHeadings, footer legend{
+    font-size: 3rem;
+    margin: 15px auto;
+    letter-spacing: 2px;
+    font-weight:600;
+    
+}
+
+
+
+
+
+
+.topNewsArticle{
+    width: 50%;
+    min-height: 400px;
+}
+
+
+#horoscope{
+    min-height: 200px;
+    
+    background-color: rgb(240, 204, 145);
+
+}
+
+#horoscope p{
+    text-align: justify;
+}
+
+.result{
+    display: none;
+    width:200px;
+    min-height: 20px;
+    background-color: rgb(184, 166, 166);
+    padding: 5px;
+}
+
+#errorInfo{
+    width:210px;
+}
+
+#more {display: none;}
+
+.introImgs{
+    width: 60%;
+  height: auto;
+}
+
+a.active{
+    background-color: beige;
+}
+
+
+#paginationList li a {
+    color:#000;
+}
+
+#displayData{
+    min-height: 400px;
+}
+
+.date {
+    font-weight: 600;
+}
+.reviewStars{
+    display: flex;
+    padding:10px 0px;
+    font-size: 2rem;
+}
+
+#rateDiv{
+    background-color: rgb(190, 190, 245);
+}
+
+
+#commentSection {
+    padding: 10px;
+    background-color: rgb(217, 217, 245);
+}
+
+.comment {
+    
+    background-color: rgb(190, 190, 245);
+}
+
+.star:hover{
+    font-size:2.3rem;
+    cursor: pointer;
+    transition: 0.5s;
+ 
+}
+
+#averageRateTxt{
+    font-size: 1.5rem;
+    padding:10px 0px;
+}
+
+#usrRq{
+    height: 30vh;
+    margin:50px auto;
+}
+
+#usrRq span{ 
+    color:rgb(11, 11, 206);
+}
+
+#usrRq span:hover{
+    cursor: pointer;
+}
+
+.error{
+    display: none;
+    
+    color: red;
+}
+
+#meta{
+    height:40px;
+    font-weight: 600;
+}
+
+textarea {
+    resize: none;
+  }
+
+  #insertForm label {
+      font-size: 1.5rem;
+  }
+
+  .deletion:hover{
+      cursor: pointer;
+  }
+
+footer{
+    min-height:50vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255,255,255,0.4)), url("../images/logo/gossipguys.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+footer fieldset{
+    width:30%;
+    padding:10px;
+    margin:0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+footer form label{
+    font-weight: 600;
+}
+footer form input{
+    margin:10px auto;
+}
+
+#userComment{
+    width:50%;
+    height: 150px;
+}
+
+
+  
+
+
+  /*SLIDER CSS*/
+
+  .slidercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px ;
+}
+
+.slider h3 {
+    border-radius: 3px;
+    box-shadow: 5px 5px 30px #000;
+    margin-bottom: 30px;
+    padding:5px;
+    font-weight:700;
+    background:rgba(255, 255, 255, 0.6);
+    
+}
+
+.slider__slides {
+  width: 100%;
+  padding-top: 66%;
+}
+
+.slider__slide {
+    position: absolute;
+    display: none;
+    font-size: 50px;
+    font-weight: bold;   
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    transition: 1s;
+    opacity: 0;
+}
+
+
+.slider__slide.active {
+    display: flex;
+    opacity: 1;
+    padding:30px;
+}
+
+
+
+
+
+.slider__nav-button {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #333;
+    opacity: .8;
+    cursor: pointer;
+}
+
+#nav-button--prev {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#nav-button--next {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+#nav-button--prev::after,
+#nav-button--next::after {
+    content: "";
+    position: absolute;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 40%;
+    height: 40%;
+}
+
+#nav-button--next::after{
+    top: 50%;
+    right: 50%;
+    transform: translate(25%, -50%) rotate(-45deg);
+}
+
+#nav-button--prev::after {
+    top: 50%;
+    right: 50%;
+    transform: translate(75%, -50%) rotate(135deg);
+}
+
+.slider__nav {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.slider__navlink {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+    background-color: #333;
+    opacity: 1;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.slider__navlink.active {
+    background-color: #fff;
+    border: 1px #333 solid;
+}
+
+
+@media screen and (max-width: 640px) {
+  .slider__nav-button {
+    height: 40px;
+    width: 40px;
+  }
+  .slider__navlink {
+    height: 12px;
+    width: 12px;
+  }
+
+  .slider__slides {
+    padding-top: 100%;
+  }
+  .slider h3{
+      font-size: 1rem;
+  }
+
+  #siteTitle h1{
+    font-size: 3rem;
+    font-style:italic;
+}
+.leadingHeadings{
+    font-size: 2rem;
+}
+
+footer fieldset{
+    width:100%;
+    padding:10px;
+}
+#message{
+    width: 100%;
+}
+
+#navigation ul li ul{
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    margin-top:15px;
+    font-size: 1.5rem;
+    padding:5px;
+    
+ }
+
+ #navigation{
+     border:none;
+ }
+
+ #entityMeta h1{
+     display: block;
+     font-size: 1.3rem;
+     
+ }
+ #entity, #commentSection, #rateDiv{
+     width: 100%;
+ }
+}
